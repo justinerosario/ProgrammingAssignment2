@@ -2,7 +2,7 @@
 ## To cache its inverse, we will use the code makeCachematrix.
 
 makeCacheMatrix <- function(x = matrix()) {
-    invmatrx<- NULL
+    invmtrx<- NULL
     set<- function(y){
 	    x <<- y
             invmtrx <<- NULL
